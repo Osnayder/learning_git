@@ -1,0 +1,45 @@
+header, nav {
+	top: 0px;
+	display: inline;
+	position: absolute;
+	width: 40%;	
+	margin: 0.5em;
+}
+
+header{	
+	left: 0px;
+	font-size: 2em;
+	text-align: right;
+	
+}
+
+nav {
+	right: 0px;
+	font-size: 1em;
+	text-align: left;
+}
+
+section {
+	width: 75%;
+	text-align: justify;
+	border: 1px solid #000000;
+}
+
+aside {
+	float: right;
+	width: 20%;
+	border: 1px solid #000000;
+
+}
+
+.li_menu {
+	display: inline;
+	margin: 1em;
+}
+
+.contenedor_b{
+	width: 60%;
+	margin-top: 100px;
+	padding-right: 150px;
+	padding-left: 150px;
+}
