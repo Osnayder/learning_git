@@ -1,35 +1,34 @@
-header, nav {
-	top: 0px;
-	display: inline;
-	position: absolute;
-	width: 40%;	
-	margin: 0.5em;
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
-header{	
-	left: 0px;
-	font-size: 2em;
-	text-align: right;
-	
+header, nav {
+	display: inline;
+	margin: 0.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #ffffff;
+}
+
+header{
+	width: 40%;	
+	font-size: 2.2em;
+	text-align: center;	
+	text-shadow: 2px 2px 2px #000000;
 }
 
 nav {
-	right: 0px;
-	font-size: 1em;
+	width: 60%;	
+	font-size: 1.2em;
 	text-align: left;
 }
 
 section {
-	width: 75%;
+	width: 60%;
+	margin: 1.5em;
 	text-align: justify;
-	border: 1px solid #000000;
-}
-
-aside {
-	float: right;
-	width: 20%;
-	border: 1px solid #000000;
-
 }
 
 .li_menu {
@@ -37,9 +36,38 @@ aside {
 	margin: 1em;
 }
 
-.contenedor_b{
-	width: 60%;
-	margin-top: 100px;
-	padding-right: 150px;
-	padding-left: 150px;
+.contenedor_a {
+	display: flex;
+	background: #0000ff;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+
+
+footer {
+	font-style: normal;  /*cursiva*/
+	font-weight: normal; /*Grosor de la fuente*/
+	line-height: 1em;    /*Espacio de interlineado*/
+	font-size: 1em;		/*Tamaño de la fuente*/
+	font-family: Arial, Helvetica, sans-serif; /*Tipo de fuente*/
+	display: flex;
+	background: #0000ff;
+}
+
+.title-a {
+	color: #000000;
+	font-style: normal;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.contenedor_footer > p{
+	color: #ffffff;
+}
+.contenedor_footer {
+	text-align: justify;
+	padding: 1.5em;
+	width: 33%;	
 }
