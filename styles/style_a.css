@@ -71,3 +71,12 @@ footer {
 	padding: 1.5em;
 	width: 33%;	
 }
+
+.cajas-body {
+	display: block;
+	margin: 1em;
+}
+
+.contenedor-section {
+	display: flex;
+}
